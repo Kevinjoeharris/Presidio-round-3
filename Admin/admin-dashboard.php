@@ -26,6 +26,10 @@
         <input type="time" name="time" id="password-input" required />
     </div>
     <div class="form-field">
+        <label for="password-input">Date</label>
+        <input type="date" name="date" id="password-input" required />
+    </div>
+    <div class="form-field">
         <label for=""></label>
         <input type="submit" value="ADD" />
     </div>

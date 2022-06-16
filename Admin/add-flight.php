@@ -6,7 +6,8 @@
         $flightno = $_GET['flight-no'];
         $time = $_GET['time'];
         $seat = '60';
-    $query    = "INSERT into flight (flightname,flightno,timee,seat) VALUES ('$flightname','$flightno','$time','$seat')";
+        $date = $_GET['date'];
+    $query    = "INSERT into flight (flightname,flightno,timee,datee,seat) VALUES ('$flightname','$flightno','$time','$date','$seat')";
     $result = mysqli_query($con, $query);
     echo "Flight added";
 }
